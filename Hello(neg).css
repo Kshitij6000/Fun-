@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f7cbf3; /* Bright background color */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper {
+    text-align: center; /* Center text content */
+}
+
+.gif {
+    max-width: 100%; /* Set maximum width to 100% */
+    height: auto; /* Maintain aspect ratio */
+    display: inline-block; /* Align the image as inline block for centering */
+}
+
+h2 {
+    text-align: center;
+    font-size: 4em; /* Larger font size */
+    font-weight: bold; /* Bold text */
+    color: #1a237e; /* Dark foreground color */
+    margin: 15px 0;
+}
+
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 1.5em;
+        margin: 5px 0;
+    }
+    button {
+        font-size: 0.8em; /* Adjusted font size for smaller screens */
+        width: 70px;
+        height: 40px; /* Adjusted height for consistency */
+    }
+    .new-year-btn{
+        font-size: 0.8em; /* Adjusted font size for smaller screens */
+        width: 70px;
+        height: 40px; /* Adjusted height for consistency */
+    }
+}
